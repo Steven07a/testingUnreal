@@ -1,0 +1,4 @@
+$NUM_ENTRIES = 2
+$BUILD_ID = Eggplantyverse-Test
+pakchunk1234-WindowsNoEditor.pak	6055	Version001	1234	/assets/pakchunk1234-WindowsNoEditor.pak
+pakchunk2005-WindowsNoEditor.pak	289057669	Version001	2005	/assets/pakchunk2005-WindowsNoEditor.pak
