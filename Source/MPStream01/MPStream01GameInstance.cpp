@@ -631,9 +631,9 @@ void UMPStream01GameInstance::OnResponseReceived(FHttpRequestPtr Request, FHttpR
 					UClass* EggplantyverseAssetToSpawn = nullptr;
 					EggplantyverseAssetToSpawn = strClassRef.ResolveClass();
 					AEggplantyverseDownloadableActor *spawnedAsset = World->SpawnActor<AEggplantyverseDownloadableActor>(EggplantyverseAssetToSpawn, SpawnLocation, SpawnRotation);
-					spawnedAsset->EggplantyverseUsername = Owner;
-					spawnedAsset->EggplantyverseID = ID;
-					spawnedAsset->OnEggplantyverseRefresh.Broadcast();
+					//spawnedAsset->EggplantyverseUsername = Owner;
+					//spawnedAsset->EggplantyverseID = ID;
+					//spawnedAsset->OnEggplantyverseRefresh.Broadcast();
 
 				}
 			}
